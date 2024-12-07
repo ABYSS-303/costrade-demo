@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/smooth-scrollbar@8.7.4/dist/smooth-scrollbar.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="shortcut icon" href="Costrade.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="back-to-top">
+        <div>
+            <i id="top" class="bi bi-arrow-up-circle-fill" style="margin: auto auto; position: fixed; bottom: 2%; right: 2%; z-index: 1; display: flex; cursor: pointer;"></i>
+        </div>
+    </div>
+
+    <div class="menu-overlay">
+        <div class="menu-logo">
+            <center><img src="Costrade-2d.png"></center>
+            <center><h1 style="color: white; margin: 0; font-size: 24px;">Welcome to CosTrade!</h1></center>
+        </div>
+        <ul class="menu__list">
+            <li class="menu-item">
+                <div class="item-box">
+                    <a href="#about" class="item-box__link">Giới Thiệu</a>
+                </div>
+            </li>
+            <li class="menu-item">
+                <div class="item-box">
+                    <a href="#services" class="item-box__link">Dịch Vụ</a>
+                </div>
+            </li>
+            <li class="menu-item">
+                <div class="item-box">
+                    <a href="#footer" class="item-box__link">Cộng Đồng</a>
+                </div>
+            </li>
+            <li class="menu-item">
+                <div class="item-box">
+                    <a href="#footer" class="item-box__link">Liên Hệ</a>
+                </div>
+            </li>
+        </ul>
+        <div class="menu__btn">
+            <div class="link-login">
+                <center><a href="/login" class="btn-link">Đăng Nhập</a></center>
+            </div>
+            <div class="link-signup">
+                <center><a href="/signup" class="btn-link">Đăng Ký</a></center>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main">
+        <div class="header">
+            <a class="header__logo" href="#"><img src="Costrade-2d.png" alt="CosTrade-Logo"></a>
+            <svg id="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 6C2 5.44772 2.44772 5 3 5H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H3C2.44772 7 2 6.55228 2 6Z" fill="currentColor"/>
+                <path d="M2 12.0322C2 11.4799 2.44772 11.0322 3 11.0322H21C21.5523 11.0322 22 11.4799 22 12.0322C22 12.5845 21.5523 13.0322 21 13.0322H3C2.44772 13.0322 2 12.5845 2 12.0322Z" fill="currentColor"/>
+                <path d="M3 17.0645C2.44772 17.0645 2 17.5122 2 18.0645C2 18.6167 2.44772 19.0645 3 19.0645H21C21.5523 19.0645 22 18.6167 22 18.0645C22 17.5122 21.5523 17.0645 21 17.0645H3Z" fill="currentColor"/>
+            </svg>
+            <svg id="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.2253 4.81108C5.83477 4.42056 5.20161 4.42056 4.81108 4.81108C4.42056 5.20161 4.42056 5.83477 4.81108 6.2253L10.5858 12L4.81114 17.7747C4.42062 18.1652 4.42062 18.7984 4.81114 19.1889C5.20167 19.5794 5.83483 19.5794 6.22535 19.1889L12 13.4142L17.7747 19.1889C18.1652 19.5794 18.7984 19.5794 19.1889 19.1889C19.5794 18.7984 19.5794 18.1652 19.1889 17.7747L13.4142 12L19.189 6.2253C19.5795 5.83477 19.5795 5.20161 19.189 4.81108C18.7985 4.42056 18.1653 4.42056 17.7748 4.81108L12 10.5858L6.2253 4.81108Z" fill="currentColor"/>
+            </svg>
+            <div class="header__menu">
+                   <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="#about" style="color: black;">
+                                <div class="header__item-box">
+                                    <p>Giới Thiệu</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#services" style="color: black;">
+                                <div class="header__item-box">
+                                    <p>Dịch Vụ</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#footer" style="color: black;">
+                                <div class="header__item-box">
+                                    <p>Cộng Đồng</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#footer" style="color: black;">
+                                <div class="header__item-box">
+                                    <p>Liên Hệ</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="/login">
+                                <div id="login-btn" class="header__item-box">
+                                    <p>Đăng Nhập</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="/signup">
+                                <div id="signup-btn" class="header__item-box">
+                                    <p>Đăng Ký</p>
+                                </div>
+                            </a>
+                        </li>
+                   </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="banner"></div>
+            <div class="slogan">
+                <h1 class="slogan-text">UY TÍN</h1>
+                <h1 class="slogan-text">CHẤT LƯỢNG</h1>
+                <h1 class="slogan-text">TẬN TÂM</h1>
+            </div>
+            <div id="about" class="about">
+                <div class="about-text">
+                    <div class="title">
+                        <h1 style="color: #595959; margin: 0;">ĐÔI NÉT</h1>
+                        <h1 style="color: #703FFF; margin: 0;"> VỀ COSTRADE</h1>
+                    </div>
+                    <div class="content">
+                        <p>- CosTrade là nền tảng cộng đồng cosplay số một Việt Nam, kết hợp hoàn hảo giữa mạng xã hội và sàn thương mại điện tử. Tại đây, các coser có thể thỏa sức chia sẻ những bộ cosplay tuyệt đẹp của mình, kết nối với cộng đồng đam mê cosplay trên khắp cả nước.
+                            <br><br>
+                            - Với CosTrade, việc tìm kiếm và cung cấp các dịch vụ liên quan đến cosplay trở nên đơn giản hơn bao giờ hết. Bạn có thể dễ dàng tìm kiếm các dịch vụ như mua đồ, thuê đồ cosplay, dịch vụ makeup chuyên nghiệp, hay thậm chí tìm kiếm những người cùng sở thích để tham gia các sự kiện cosplay. Đặc biệt, tính năng tìm kiếm theo khu vực giúp bạn nhanh chóng kết nối với các coser và dịch vụ gần nơi bạn sống.
+                            <br><br>
+                            - Không chỉ là nơi để chia sẻ và kết nối, CosTrade còn là sàn giao dịch trực tuyến, giúp các coser mua bán, trao đổi trang phục, phụ kiện cosplay một cách thuận tiện và an toàn. Với CosTrade, cộng đồng cosplay Việt Nam sẽ có một sân chơi chung để cùng nhau phát triển và chia sẻ đam mê.</p>
+                    </div>
+                </div>
+                <div class="about-image"></div>
+            </div>
+
+            <div id="services" class="services">
+                <div class="services-box">
+                    <div class="services-item">
+                        <div class="service-image"><img src="service.jpg" alt=""></div>
+                        <center><h1>THUÊ TRANG PHỤC COSPLAY</h1></center>
+                    </div>
+                    <div class="services-item">
+                        <div class="service-image"><img src="service.jpg" alt=""></div>
+                        <center><h1>THUÊ TRANG PHỤC COSPLAY</h1></center>
+                    </div>
+                    <div class="services-item">
+                        <div class="service-image"><img src="service.jpg" alt=""></div>
+                        <center><h1>THUÊ TRANG PHỤC COSPLAY</h1></center>
+                    </div>
+                    <div class="services-item">
+                        <div class="service-image"><img src="service.jpg" alt=""></div>
+                        <center><h1>THUÊ TRANG PHỤC COSPLAY</h1></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer" class="footer">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="Costrade-2d.png" alt="CosTrade.com Logo">
+                    <p>Fahasa.com nhận đặt hàng trực tuyến và giao hàng tận nơi. KHÔNG hỗ trợ đặt mua và nhận hàng trực tiếp tại văn phòng cũng như tất cả Hệ Thống Fahasa trên toàn quốc.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>DỊCH VỤ</h4>
+                        <ul>
+                            <li><a href="#">Điều khoản sử dụng</a></li>
+                            <li><a href="#">Chính sách bảo mật thông tin cá nhân</a></li>
+                            <li><a href="#">Chính sách bảo mật thanh toán</a></li>
+                            <li><a href="#">Giới thiệu Fahasa</a></li>
+                            <li><a href="#">Hệ thống trung tâm - nhà sách</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>ĐIỀU KHOẢN & CHÍNH SÁCH</h4>
+                        <ul>
+                            <li><a href="#">Chính sách đổi - trả - hoàn tiền</a></li>
+                            <li><a href="#">Chính sách bảo hành - bồi hoàn</a></li>
+                            <li><a href="#">Chính sách vận chuyển</a></li>
+                            <li><a href="#">Chính sách khách sĩ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>TÀI KHOẢN CỦA TÔI</h4>
+                        <ul>
+                            <li><a href="#">Đăng nhập/Tạo mới tài khoản</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>LIÊN HỆ</h4>
+                    <a href="mailto:cskh@fahasa.com.vn">cskh@fahasa.com.vn</a>
+                    <div class="social-icons">
+                        <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                        <a href="#"><img src="youtube.png" alt="YouTube"></a>
+                        <a href="#"><img src="tiktok.png" alt="TikTok"></a>
+                        <a href="#"><img src="telegram.png" alt="Telegram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>2024 - Copyright QvK Team.</p>
+            </div>
+        </div>
+    </div>
+    <style>
+        #top {
+            font-size: 36px;
+        }
+
+        @media screen and (max-width: 768px) {
+            #top {
+                font-size: 28px;
+            }
+        }
+    </style>
+    <script>
+        document.querySelector('.banner').style.backgroundImage = "url('banner.jpg')";
+        document.querySelector('.about-image').style.backgroundImage = "url('ryo-rm.png')";
+        window.addEventListener('scroll', function() {
+            if (window.scrollY < 100) {
+                document.querySelector('#top').style.display = "none";
+            } else {
+                document.querySelector('#top').style.display = "block";
+            }
+        });
+
+        document.querySelector('#top').addEventListener('click', function() {
+            window.scrollTo(0, 0);
+        });
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
